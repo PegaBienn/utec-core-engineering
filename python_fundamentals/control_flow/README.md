@@ -4,3 +4,6 @@
 <number> is negative si el número es menor que 0
 # Print_hexa
 Imprime números del 0 al 98 en decimal y hexadecimal.
+
+# print_comb2
+imprime numeros del 00 al 99 con comas 
