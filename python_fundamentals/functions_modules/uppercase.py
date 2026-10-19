@@ -1,22 +1,10 @@
 #!/usr/bin/env python3
 
-def uppercase():
-    palabra = input("Ingrese una palabra: ")
-    resultado = ""
-    for caracter in palabra:
-        codigo_ascii = ord(caracter)
-        if 97 <= codigo_ascii <= 122:
-            resultado += chr(codigo_ascii - 32)
-        else:
-            resultado += caracter
-    return palabra, resultado
 
-
-original, mayuscula = uppercase()
-
-
-print(f"Palabra ingresada: {original}")
-
-
-print("Resultado en mayúsculas: {}".format(mayuscula))
+def uppercase(str):
+    for caracter in str:
+        if 97 <= ord(caracter) <= 122:
+            caracter = chr(ord(caracter) - 32)
+        print("{}".format(caracter), end="")
+    print("")
 
