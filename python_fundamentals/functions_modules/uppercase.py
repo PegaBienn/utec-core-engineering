@@ -6,7 +6,6 @@ def uppercase():
     
     for caracter in palabra:
         codigo_ascii = ord(caracter)
-        # 97 a 122 corresponden a las letras minúsculas 'a' - 'z'
         if 97 <= codigo_ascii <= 122:
             resultado += chr(codigo_ascii - 32)
         else:
@@ -14,6 +13,6 @@ def uppercase():
             
     return resultado
 
-# Llamada a la función e impresión
+
 print(uppercase())
 
