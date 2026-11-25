@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Proporciona una clase base para figuras geométricas."""
 
 
