@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Representa rectángulos con dimensiones enteras positivas."""
 
-import base_geometry
+BaseGeometry = __import__("base_geometry").BaseGeometry
 
 
-class Rectangle(base_geometry.BaseGeometry):
+class Rectangle(BaseGeometry):
     """Rectángulo definido por su ancho y su altura."""
 
     def __init__(self, width, height):
